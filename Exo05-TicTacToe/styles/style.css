@@ -1,0 +1,25 @@
+td>div{
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+}
+
+.cross:before, .cross:after {
+    left: 13px;
+    content: ' ';
+    height: 33px;
+    width: 8px;
+    background-color: #A11;
+}
+.cross:before {
+    transform: rotate(45deg);
+}
+.cross:after {
+    transform: rotate(-45deg);
+}
+
+.circle{
+    border-radius: 50%;
+    border : 8px solid #11A;
+    box-sizing:border-box;
+}

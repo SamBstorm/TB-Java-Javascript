@@ -1,0 +1,35 @@
+element{
+    /*Récupère tout élément correspondant à la balise*/
+}
+
+element[attribut=value]{
+    /*Récupère tout element ayant l'attrbut et la valeur spécifique (valeur est optionnel)*/
+}
+
+#id{
+    /*Récupère tout élément correspondant à l'identifiant ! : identifiant est unique! */
+}
+
+.class{
+    /*Récupère tout élément correspondant à la class */
+}
+
+parent enfant{
+    /*Récupère tout élément enfants étant dans la balise parent (même si balise intermédiaire!) */
+}
+
+parent>enfant{
+    /*Récupère tout élément enfants étant dans la balise parent (sans balise intermédiaire!) */
+}
+
+element:first-child{
+    /*Récupère le premier enfant de ce type*/
+}
+
+element:last-child{
+    /*Récupère le dernier enfant de ce type*/
+}
+
+element:nth-child(4){
+    /*Récupère le quatrième enfant de ce type*/
+}
