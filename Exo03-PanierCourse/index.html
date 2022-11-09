@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 3 - DOM - Panier course</title>
+</head>
+
+<body>
+    <h1>Descriptif produits</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Produit</th>
+                <th>Prix/unité</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="products-table"></tbody>
+    </table>
+    <hr>
+    <h1>Panier produit</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Produit</th>
+                <th>Prix/unité</th>
+            </tr>
+        </thead>
+        <tbody id="cart-table"></tbody>
+    </table>
+    <div>
+        <label for="cart-total">Prix total : </label><input type="text" id="cart-total" disabled>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
