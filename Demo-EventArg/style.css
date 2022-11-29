@@ -1,0 +1,12 @@
+.square{
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    position: absolute;
+}
+
+main{
+    height: 600px;
+    width : 800px;
+    border: 1px solid black;
+}
